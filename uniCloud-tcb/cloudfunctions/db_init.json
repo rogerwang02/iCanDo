@@ -1,0 +1,44 @@
+{
+    "users": {
+        "permission": {
+            "read": true,
+            "write": true
+        },
+        "validator": {
+            "$jsonSchema": {
+                "bsonType": "object",
+                "required": ["openid"],
+                "properties": {
+                    "openid": {
+                        "bsonType": "string",
+                        "description": "用户openid"
+                    },
+                    "nickName": {
+                        "bsonType": "string",
+                        "description": "用户昵称"
+                    },
+                    "avatarUrl": {
+                        "bsonType": "string",
+                        "description": "用户头像"
+                    },
+                    "gender": {
+                        "bsonType": "int",
+                        "description": "用户性别"
+                    },
+                    "region": {
+                        "bsonType": "array",
+                        "description": "用户地区"
+                    },
+                    "createTime": {
+                        "bsonType": "timestamp",
+                        "description": "创建时间"
+                    },
+                    "updateTime": {
+                        "bsonType": "timestamp",
+                        "description": "更新时间"
+                    }
+                }
+            }
+        }
+    }
+} 

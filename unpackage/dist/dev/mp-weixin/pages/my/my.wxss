@@ -1,0 +1,75 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40rpx;
+}
+.avatar-container {
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 40rpx;
+    background-color: #f0f0f0;
+}
+.avatar-wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: none;
+    border: none;
+    line-height: 1;
+}
+.avatar-wrapper::after {
+    border: none;
+}
+.avatar {
+    width: 100%;
+    height: 100%;
+}
+.user-info {
+    width: 80%;
+    margin-bottom: 20rpx;
+}
+.nickname, .gender, .region {
+    margin-bottom: 20rpx;
+}
+.weui-input {
+    width: 100%;
+    height: 80rpx;
+    padding: 0 20rpx;
+    border: 1px solid #ddd;
+    border-radius: 40rpx;
+    font-size: 32rpx;
+    text-align: center;
+}
+.picker {
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 40rpx;
+    font-size: 32rpx;
+}
+.tip-text {
+    font-size: 24rpx;
+    color: #999;
+    margin-bottom: 40rpx;
+}
+.login-btn {
+    width: 80%;
+    background-color: #007AFF;
+    color: #fff;
+    border-radius: 40rpx;
+    font-size: 32rpx;
+}
+.logout-btn {
+    width: 80%;
+    background-color: #ff4d4f;
+    color: #fff;
+    border-radius: 40rpx;
+    font-size: 32rpx;
+    margin-top: 20rpx;
+}
